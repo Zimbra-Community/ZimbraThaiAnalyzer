@@ -1,0 +1,2 @@
+Zimbra-Extension-Class: com.zimbra.extension.analyzer.th.ThaiAnalyzerExtension
+
