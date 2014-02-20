@@ -9,10 +9,10 @@ Steps for creating a custom plug-in analyzer:
 
 4) Compile your Analyzer.
 
-5) Install your analyzer's .JAR file into /opt/zimbra/lib/ext/Name-Of-Your-Analyzer/Name-Of-Your-Analyzer.jar.  You will need to re-start your server.
+5) Install your analyzer's .JAR file into /opt/zimbra/lib/ext/ThaiAnalyzer/ThaiAnalyzer.jar.  You will need to re-start your server.
 
 6) Modify the zimbraTextAnalyzer Account or COS settings of the user or users to point to your new analyzer:
-    zmprov ma user1@mydomain.com zimbraTextAnalyzer Name-Of-Your-Analyzer
+    zmprov ma user1@mydomain.com zimbraTextAnalyzer ThaiAnalyzer
 
 7) New messages will be analyzed with the new plugin.  Search strings will be analyzed with the new plugin.
 
